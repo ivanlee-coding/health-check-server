@@ -1,0 +1,12 @@
+{
+    "configurations": [
+        {
+            "name": "De Your Bug",
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "node",
+            "program": "${workspaceFolder}/src/main.js",
+            "env": {"NODE_ENV":"debug"},
+        },
+    ]
+}

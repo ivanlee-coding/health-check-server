@@ -1,0 +1,22 @@
+{
+  "name": "health-check-server",
+  "version": "1.0.0",
+  "description": "Basic server to response a health check by a Get resquest.",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main"
+  },
+  "keywords": [
+    "ExpressJS",
+    "Networking",
+    "TCP/UDP"
+  ],
+  "author": "ivan lee <nyouco@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.0.0"
+  }
+}
