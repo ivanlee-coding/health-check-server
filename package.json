@@ -13,6 +13,9 @@
   ],
   "author": "ivan lee <nyouco@outlook.com>",
   "license": "MIT",
+  "engines": {
+    "node": ">=20.10.0"
+  },
   "dependencies": {
     "dotenv": "^16.4.7",
     "express": "^4.21.2",

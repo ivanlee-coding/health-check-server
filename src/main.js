@@ -1,7 +1,8 @@
 const express = require('express');
 const helmet = require('helmet');
 const rateLimit = require('express-rate-limit');
-require('dotenv').config();
+const path = require('path'); 
+require('dotenv').config({ path: path.join(__dirname, '..', '.env') });
 
 const app = express();
 const port = process.env.PORT || 80;
